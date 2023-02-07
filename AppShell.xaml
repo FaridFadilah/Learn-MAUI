@@ -10,13 +10,13 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:View.Auth.LoginPage}"
         Route="MainPage" /> -->
-    <!-- <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:View.Count.CountPage}"
-        Route="MainPage" /> -->
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate local:View.Count.CountPage}"
         Route="MainPage" />
+    <!-- <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" /> -->
 
 </Shell>

@@ -3,7 +3,6 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:firstproject"
   x:Class="firstproject.View.Count.CountPage">
   <StackLayout>
-    <Label x:Name="countLabel" Text="0" />
-    <Button x:Name="countButton" Clicked="countPlus" Text="Clickme" />
+    <Button x:Name="countButton" Clicked="countPlus" Text="Mari berhitung" />
   </StackLayout>
 </ContentPage>

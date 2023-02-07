@@ -8,5 +8,8 @@ public partial class CountPage : ContentPage{
   
   private void countPlus(object sender, EventArgs e){
     count++;
+    if(count == 1) countButton.Text = $"{count}";
+    else countButton.Text = $"{count}";
+    
   }
 }
