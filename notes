@@ -1,0 +1,1 @@
+dotnet build -t:Run -f net7.0-android /p:AndroidSdkDirectory=/home/faridhome/Android/Sdk 
